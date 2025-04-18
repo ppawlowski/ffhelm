@@ -3,6 +3,32 @@ entries:
   flowforge:
   - apiVersion: v2
     appVersion: 2.16.0
+    created: "2025-04-18T10:10:59.41456674Z"
+    dependencies:
+    - condition: forge.localPostgresql
+      import-values:
+      - child: image
+        parent: postgresql.image
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: FlowFuse
+    digest: 85c0acc1e85dfba7d0efc4ca35ff165844064084276fcdf3ca69574eb7e655f1
+    home: https://flowfuse.com
+    icon: https://flowfuse.com/apple-touch-icon.png
+    keywords:
+    - flowforge
+    - node-red
+    maintainers:
+    - name: FlowForge Inc
+      url: https://flowfuse.com
+    name: flowforge
+    type: application
+    urls:
+    - https://github.com/ppawlowski/ffhelm/releases/download/flowforge-2.30.5/flowforge-2.30.5.tgz
+    version: 2.30.5
+  - apiVersion: v2
+    appVersion: 2.16.0
     created: "2025-04-18T10:04:52.633745187Z"
     dependencies:
     - condition: forge.localPostgresql
@@ -2424,4 +2450,32 @@ entries:
     urls:
     - https://flowfuse.github.io/helm/flowforge-1.1.0.tgz
     version: 1.1.0
-generated: "2025-04-18T10:04:52.783962556Z"
+  flowfuse:
+  - apiVersion: v2
+    appVersion: 2.16.0
+    created: "2025-04-18T10:10:59.531278691Z"
+    dependencies:
+    - condition: forge.localPostgresql
+      import-values:
+      - child: image
+        parent: postgresql.image
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: FlowFuse
+    digest: f9d3cc135b97fb6563444421818fa7af7ebb678e5109a272c6b41aa13585383b
+    home: https://flowfuse.com
+    icon: https://flowfuse.com/apple-touch-icon.png
+    keywords:
+    - flowforge
+    - flowfuse
+    - node-red
+    maintainers:
+    - name: FlowFuse Inc
+      url: https://flowfuse.com
+    name: flowfuse
+    type: application
+    urls:
+    - https://github.com/ppawlowski/ffhelm/releases/download/flowfuse-2.30.5/flowfuse-2.30.5.tgz
+    version: 2.30.5
+generated: "2025-04-18T10:10:59.531546651Z"
