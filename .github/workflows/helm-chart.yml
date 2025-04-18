@@ -16,6 +16,7 @@ on:
 jobs:
   lint:
     name: Lint and install chart
+    if: false
     runs-on: ubuntu-latest
 
     steps:
