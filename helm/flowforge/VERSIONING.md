@@ -1,5 +1,6 @@
 ## Overview
 
+
 In this project, the `@semantic-release/commit-analyzer` is used to automatically determine the next helm chart release version based on the commit messages in the codebase. This plugin is part of the Semantic Release suite, which automates the versioning and publishing process based on the commit history.
 
 By using the Angular commit message convention (also known as [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)), the project adheres to a standardized format for commit messages, which the `@semantic-release/commit-analyzer` plugin uses to determine whether the next release should be a major, minor, or patch release.
