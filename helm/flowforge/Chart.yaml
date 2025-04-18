@@ -1,7 +1,7 @@
 deprecated: true
 apiVersion: "v2"
 name: "flowforge"
-version: "2.1.1"
+version: "2.30.7"
 description: "DEPRECATED FlowFuse"
 type: "application"
 home: "https://flowfuse.com"
