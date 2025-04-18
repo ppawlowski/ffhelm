@@ -78,8 +78,8 @@ jobs:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
           charts_dir: helm
-          config: .github/configs/cr.yaml
-          skip_existing: false
+          # config: .github/configs/cr.yaml
+          # skip_existing: false
 
       - name: Update main changelog
         if: false
